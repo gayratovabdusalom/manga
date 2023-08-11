@@ -1,0 +1,376 @@
+@import url(./font.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Oxygen';
+}
+.container{
+    max-width: 1110px; 
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.main2__item{
+    background: url(../images/chainsaw\ man\ 4.jpg) no-repeat center/cover;
+    height: 600px;
+}
+.main2{
+    display: flex;
+    flex-direction: column;
+}
+.main1{
+    background: url(../images/room\ 2\ bg.jpg) no-repeat center/cover;
+}
+.navbar{
+    background: rgb(33, 31, 31);
+}
+.navbar2{
+    background: rgb(33, 31, 31);
+}
+.navbar__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+.navbar__box-title{
+    color: white;
+    font-size: 40px;
+    font-family: 'Oxygen';
+}
+.navbar__box-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+}
+.navbar__box-link{
+    color: white;
+    font-size: 28px;
+    text-decoration: none;
+    opacity: 1;
+    transition: 0.3s;
+    list-style: none;
+}
+.navbar__box-link:hover{
+    border-bottom:3px solid orange;
+    border-radius: 4px;
+    padding-bottom: 8px;
+    color:orange;
+}
+.main__item{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main__item-title{
+    color: white;
+    font-size: 80px;   
+}
+.main__item-text{
+    color: white;
+    padding: 25px 0 35px;
+    font-size: 24px;
+    width: 500px;
+}
+.main-btn{
+    max-width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    column-gap: 30px;
+}
+.btn{
+    color:white;
+    background: rgb(33, 156, 204);
+    padding: 10px 12px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+    transition: 0.5s;
+}
+.btn:hover{
+   background: brown;
+}
+.btn2{
+    color:white;
+    background: rgb(33, 156, 204);
+    padding: 10px 12px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+    transition: 0.5s;
+}
+.btn2:hover{
+    background: brown;
+ }
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(33, 31, 31);
+}
+.box__list{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 15px 0;
+    column-gap: 60px;
+}
+.box__list-link{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    transition: 0.3s;
+}
+.box__list-link:hover{
+    padding-bottom: 6px;
+    border-bottom: 3px solid orange;
+    color: orange;
+}
+.navbar__item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+.navbar__list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    column-gap: 40px;
+}
+.navbar__item-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.navbar__link{
+    color: black;
+    text-decoration: none;
+    font-family: 'Oxygen';
+    font-size: 30px;
+    transition: 0.4s;
+}
+.navbar__list-link{
+    color: white;
+    text-decoration: none;
+    font-family: 'Oxygen';
+    font-size: 30px;
+    transition: 0.4s;
+    border: 3px solid white;
+    padding: 4px 5px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+.navbar__list-link:hover{
+    color: orange;
+    border-color: orange;
+}
+.navbar__link:hover{
+    border-bottom: 3px solid black;
+    padding-bottom:5px;
+    border-radius: 4px;
+}
+.navbar__home{
+   list-style: none;
+   text-decoration: none;
+}
+.manga1__item{
+    border: 2px solid black;
+    height: 300px;
+    max-width: 300px;
+}
+.main__manga{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.manga__box{
+    background: #000;
+    margin-top: 50px;
+    border-radius: 24px;
+}
+.manga__box-title{
+    color:white;
+    font-family: 'Oxygen';
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 16px 20px 0 20px;
+}
+.manga__box-text{
+    font-family: 'Oxygen';
+    font-size: 22px;
+    max-width: 360px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+.navbar__bleach{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main3{
+    background: #000;
+}
+.bg{
+   background: url(../images/blech7.png) no-repeat top/cover;
+   height: 600px;
+   position: relative;
+   display: flex;
+}
+.bg2{
+    background: url(../images/chainsaw\ man\ 4.jpg) no-repeat top/cover;
+    height: 600px;
+}
+.main3__box{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background: rgb(33, 31, 31);
+   border-radius: 20px;
+}
+.main3__title{
+    font-family: 'Oxygen';
+    font-size: 50px;
+    color:white;
+    margin: 10px 0 0 0;
+}
+.main3__text{
+    color: white;
+    font-family: 'Oxygen';
+    font-size: 18px;
+    text-align:center;
+    margin: 15px 20px;
+    width: 350px;
+}
+.bg__box{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    margin-top: 100px;
+}
+.about__item{
+    background: rgb(33, 31, 31);
+}
+.about__item-title{
+    font-family: 'Oxygen';
+    font-size: 45px;
+    color:white;
+    padding: 20px 0;  
+}
+.navbar__link{
+    color: white;
+    font-size: 28px;
+    text-decoration: none;
+    opacity: 1;
+    transition: 0.3s;
+    list-style: none;
+}
+.navbar__link:hover{
+    border-bottom:3px solid orange;
+    border-radius: 4px;
+    padding-bottom: 6px;
+    color:orange;
+}
+.manga-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap:21px;
+    margin: 0 0 20px 0;
+}
+.top__item{
+    background: url(../images/onepiece4.png) no-repeat top/cover ;
+    height: 600px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.top__box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgb(33, 31, 31);
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+.top__title{
+    font-family: 'Oxygen';
+    font-size: 55px;
+    color: white;
+    margin-top: 10px;
+}
+.top__text{
+    font-family: 'Oxygen';
+    font-size: 18px;
+    color: white;
+    max-width: 350px;
+    margin: 20px 15px;
+    text-align: center;
+
+}
+.bottom__item{
+    background: rgb(33, 31, 31);
+}
+.bottom__item-title{
+    color: white;
+    font-family: 'Oxygen';
+    font-size: 45px;
+    padding: 15px 0;
+}
+.top1{
+    background:url(../images/bg\ 2.jpg) no-repeat left/cover;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top__sub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub__box{
+    background: rgb(33, 31, 31);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sub__box-title{
+    color: white;
+    font-size: 45px;
+    font-family: 'Oxygen';
+}
+.top__box-title{
+    font-family: 'Oxygen';
+    color: white;
+    font-size: 50px;
+    margin-top: 15px;
+}
+.top__box-text{
+    font-family: 'Oxygen';
+    color: white;
+    font-size: 20px;
+    max-width: 350px;
+    margin: 20px 15px;
+    text-align: center;
+}
+.top__sub{
+    display: flex;
+    align-items:flex-end;
+    justify-content:center;
+}

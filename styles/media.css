@@ -1,0 +1,144 @@
+@media ( max-width:400px ) {
+    .navbar__box {
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar__box-list{
+        column-gap: 18px;
+        margin: 15px 0;
+    }
+    .main__item-text{
+        font-size: 20px;
+        max-width: 320px;
+        line-height: 27px;
+        margin-bottom: 0;
+    }
+    .navbar__box-link:hover{
+        border-bottom: 2px solid orange;
+    }
+    .box__list-link{
+        font-size: 20px;
+    }
+    .box__list-link:hover{
+        border-bottom: 2px solid orange;
+    }
+    .main__item {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .navbar__box-link {
+        font-size:21px;
+    }
+    .navbar__list {
+        column-gap: 14px;
+    }
+    .navbar__box-link:hover{
+        border-bottom: 1px solid orange;
+    }
+    .navbar__list-link{
+        font-size: 20px;
+        border: 1px solid white;
+    }
+    .navbar__home{
+        margin-left: 3px;
+    }
+    .navbar__link{
+        font-size: 14px;
+    }
+    .navbar__link:hover{
+        border-bottom: 1px solid orange;
+    }
+    .about__item-title{
+        font-size: 29px;
+        margin-left: 20px;
+    }
+    .main3__text{
+        font-size: 14px;
+        line-height: 18px;
+        max-width: 200px;
+    }
+    .main3__title{
+        font-style: 43px;
+    }
+    .btn{
+        font-size: 17px;
+    }
+    .main-btn{
+        column-gap: 60px;
+    }
+    .bg__box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .manga__box-title{
+        font-size: 35px;
+    }
+    .manga__box-text{
+        font-size: 17px;
+    }
+    .main2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .btn2{
+        font-size: 13px;
+    }
+    .top__text{
+        font-size: 15px;
+        max-width: 260px;
+        margin: 12px 15px;
+    }
+    .bottom__item-title{
+        font-size: 32px;
+        margin-left: 10px;
+    }
+   .manga__box{
+       margin-top: 132px;
+   }
+   .manga__box-text{
+       max-width:295px;
+   }
+   .top__box-text{
+    font-size: 18px;
+   }
+   .top__box-text{
+    max-width: 295px;
+   }
+   .top__box-title{
+    font-size: 45px;
+   }
+   .box__list-link{
+    font-size: 17px;
+   }
+   .box__list{
+    column-gap: 30px;
+    padding: 20px 0;
+   }
+   .navbar__item{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+       height: 100px;
+   }
+   .navbar__list{
+    margin: 10px 0 20px 0;
+   }
+   .navbar__item-list{
+    margin-top: 20px;
+   }
+   .navbar__link{
+    font-size: 18px;
+   }
+   .navbar__link:hover{
+    border-bottom: 1px solid orange;
+    border-radius: 2px;
+   }
+   .navbar__list-link{
+    padding: 4px 20px;
+   }
+}
